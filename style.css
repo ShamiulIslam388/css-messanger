@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 440px !important;
+    margin: 50px auto;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    border: 1px solid gray;
+}
+
+.msg-header {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(104, 104, 245);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5px;
+}
+
+.header-active{
+    color: #fff;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+.msg-header-img {
+    width: 50px;
+    height: 50px;
+}
+.msg-header-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header-icons {
+    margin-right: 5px;
+    margin-top: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-icons .fa {
+    color: #fff;
+    cursor: pointer;
+}
+
+.mgs-page {
+    margin: 20px;
+}
+
+.received-chats {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.received-chats-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.received-chats-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.received-message {
+    width: 200px;
+}
+
+.received-message p {
+    font-size: 14px;
+    text-align: start;
+    background: lightgray;
+    padding: 8px;
+    border-radius: 10px;
+    color: rgb(10, 3, 3);
+    font-weight: 500;
+}
+
+.received-message span {
+    font-size: 10px;
+    color: rgb(87, 85, 85);
+}
+
+.send-chats {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.send-chats img{
+    margin-left: 5px;
+}
+
+.send-chats p{
+    background-color: rgb(104, 104, 245);
+    color: #fff;
+}
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(104, 104, 245);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.footer-icons {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons .fa {
+    color: #fff;
+    cursor: pointer;
+}
+
+.input-group {
+    display: flex;
+    width: 200px;
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 999px;
+}
+
+.input-group input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 10px;
+}
+
+.input-group .fa {
+    color: rgb(104, 104, 245);
+    cursor: pointer;
+}
